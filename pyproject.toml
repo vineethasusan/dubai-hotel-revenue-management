@@ -1,0 +1,19 @@
+[project]
+name = "dubai-hotel-revenue-management"
+version = "1.0.0"
+description = "Hotel demand forecasting and dynamic pricing for Dubai, with events, Ramadan and causal price elasticity"
+authors = [{ name = "Vineetha Susan Alexander" }]
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 140
+target-version = "py310"
+
+[tool.ruff.lint]
+# essential checks: syntax errors and undefined names
+select = ["E9", "F63", "F7", "F82"]

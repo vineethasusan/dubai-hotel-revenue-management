@@ -1,0 +1,120 @@
+{
+  "test_period": "2026-01-01 to 2026-06-30",
+  "hotels": 6,
+  "room_nights_available": 318560,
+  "forecast": {
+    "model_mape": 0.0306,
+    "pickup_mape": 0.0563,
+    "last_year_mape": 0.1094
+  },
+  "elasticity": {
+    "Palm Beach Resort": {
+      "learned": -1.05,
+      "true": -1.1
+    },
+    "Marina Luxury Hotel": {
+      "learned": -1.21,
+      "true": -1.25
+    },
+    "Downtown Business Hotel": {
+      "learned": -1.49,
+      "true": -1.45
+    },
+    "DIFC Executive Suites": {
+      "learned": -1.24,
+      "true": -1.3
+    },
+    "Deira Midscale Inn": {
+      "learned": -1.79,
+      "true": -1.85
+    },
+    "Al Barsha City Hotel": {
+      "learned": -1.72,
+      "true": -1.75
+    }
+  },
+  "legacy": {
+    "revenue": 257200220.0,
+    "occupancy": 0.876,
+    "adr": 922.076,
+    "revpar": 807.384
+  },
+  "dynamic": {
+    "revenue": 269429260.0,
+    "occupancy": 0.956,
+    "adr": 884.988,
+    "revpar": 845.772
+  },
+  "revenue_uplift": 0.0475,
+  "revenue_gain_aed": 12229040,
+  "naive_model_revenue_uplift": -0.1248,
+  "share_of_max_possible_gain": 0.8663,
+  "per_hotel": [
+    {
+      "hotel": "Palm Beach Resort",
+      "segment": "luxury_resort",
+      "legacy_revpar": 1259,
+      "dynamic_revpar": 1319,
+      "revpar_uplift": 0.0476,
+      "legacy_occ": 0.88,
+      "dynamic_occ": 0.954,
+      "legacy_adr": 1432,
+      "dynamic_adr": 1383
+    },
+    {
+      "hotel": "Marina Luxury Hotel",
+      "segment": "luxury_city",
+      "legacy_revpar": 1009,
+      "dynamic_revpar": 1051,
+      "revpar_uplift": 0.041,
+      "legacy_occ": 0.884,
+      "dynamic_occ": 0.962,
+      "legacy_adr": 1142,
+      "dynamic_adr": 1092
+    },
+    {
+      "hotel": "Downtown Business Hotel",
+      "segment": "business",
+      "legacy_revpar": 701,
+      "dynamic_revpar": 734,
+      "revpar_uplift": 0.0468,
+      "legacy_occ": 0.863,
+      "dynamic_occ": 0.946,
+      "legacy_adr": 812,
+      "dynamic_adr": 776
+    },
+    {
+      "hotel": "DIFC Executive Suites",
+      "segment": "business",
+      "legacy_revpar": 815,
+      "dynamic_revpar": 846,
+      "revpar_uplift": 0.0376,
+      "legacy_occ": 0.869,
+      "dynamic_occ": 0.949,
+      "legacy_adr": 939,
+      "dynamic_adr": 891
+    },
+    {
+      "hotel": "Deira Midscale Inn",
+      "segment": "midscale",
+      "legacy_revpar": 327,
+      "dynamic_revpar": 349,
+      "revpar_uplift": 0.0669,
+      "legacy_occ": 0.88,
+      "dynamic_occ": 0.955,
+      "legacy_adr": 372,
+      "dynamic_adr": 366
+    },
+    {
+      "hotel": "Al Barsha City Hotel",
+      "segment": "midscale",
+      "legacy_revpar": 362,
+      "dynamic_revpar": 388,
+      "revpar_uplift": 0.0738,
+      "legacy_occ": 0.872,
+      "dynamic_occ": 0.969,
+      "legacy_adr": 415,
+      "dynamic_adr": 401
+    }
+  ]
+}

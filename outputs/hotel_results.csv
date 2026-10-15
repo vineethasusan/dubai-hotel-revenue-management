@@ -1,0 +1,7 @@
+hotel,segment,legacy_revpar,dynamic_revpar,revpar_uplift,legacy_occ,dynamic_occ,legacy_adr,dynamic_adr
+Palm Beach Resort,luxury_resort,1259,1319,0.0476,0.88,0.954,1432,1383
+Marina Luxury Hotel,luxury_city,1009,1051,0.041,0.884,0.962,1142,1092
+Downtown Business Hotel,business,701,734,0.0468,0.863,0.946,812,776
+DIFC Executive Suites,business,815,846,0.0376,0.869,0.949,939,891
+Deira Midscale Inn,midscale,327,349,0.0669,0.88,0.955,372,366
+Al Barsha City Hotel,midscale,362,388,0.0738,0.872,0.969,415,401
